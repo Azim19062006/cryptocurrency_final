@@ -1,0 +1,45 @@
+.heading {
+    margin: 0;
+    font-family: inter, sans-serif;
+  }
+
+  .heading {
+    margin-bottom: 20px;
+  }
+  
+  .heading-level-1 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: bold;
+  }
+  
+  .heading-level-2 {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: bold;
+  }
+  
+  .heading-level-3 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+  
+  .heading-level-4 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+  }
+  
+  .heading-level-5 {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+  }
+  
+  .heading-level-6 {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+  }
+  

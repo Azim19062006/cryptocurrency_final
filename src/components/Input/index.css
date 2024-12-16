@@ -1,0 +1,81 @@
+.input-wrapper {
+    margin-bottom: 1rem;
+  }
+  
+  .input-label {
+    display: block;
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  .input-label--danger {
+    color: #FF4D4F;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  .input-label--focused {
+    color: #006FEE;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  
+  .input-component {
+    border: 1px solid #d2d6dc;
+    color: #000000;
+    border-radius: 8px;
+    width: 276px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 8px 10px 8px 10px;
+    line-height: 24px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .input-component:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.1rem rgba(19, 24, 34, 0.25);
+  }
+  
+  .input-component--focused:focus {
+    outline: none;
+    border-color: #006FEE;
+    box-shadow: 0 0 0 0.1rem rgba(59, 130, 246, 0.25);
+  }
+  
+  .input-component--normal {
+    border-color: #d2d6dc;
+    color: #000000;
+    width: 276px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 10px 8px 10px;
+  }
+  
+  .input-component--danger {
+    border-color: #FF4D4F;
+    color: #FF4D4F;
+    width: 276px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 10px 8px 10px;
+  }
+  
+  .input-component--danger:focus {
+    border-color: #FF4D4F;
+    box-shadow: 0 0 0 0.1rem rgba(246, 65, 62, 0.25);
+  }
+  
+  .input-component:disabled {
+    background-color: #f7fafc;
+    cursor: not-allowed;
+  }
+  
