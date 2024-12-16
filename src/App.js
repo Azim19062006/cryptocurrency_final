@@ -62,8 +62,7 @@ function App() {
       placeholder="Search"
       size="md"/>
       {loading ? (
-        <Typography textSize="lg">Loading...</Typography>
-      ) : (
+        <Typography textSize="lg">Loading...</Typography>) : (
         <div>
           {filteredData.map((cryptoData) => (
             <Accordion
@@ -76,8 +75,7 @@ function App() {
               <Typography><b>Price BTC:</b> {cryptoData.price_btc}</Typography>
               <Typography>
                 <Tooltip
-                  text="The market capitalization of a cryptocurrency is calculated by multiplying the number of coins in circulation by the current price"
-                >
+                  text="The market capitalization of a cryptocurrency is calculated by multiplying the number of coins in circulation by the current price">
                     <b >Market Cap USD:</b> 
                 </Tooltip>{" "}
                 {cryptoData.market_cap_usd}
